@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leidy Tatiana Hurtado Giraldo | Psicología</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{background:#f4f9f9;color:#333;}
+
+header{
+background:linear-gradient(135deg,#2ec4b6,#1b4965);
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{font-size:36px;margin-bottom:10px;}
+
+nav{
+background:white;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+nav a{
+text-decoration:none;
+color:#1b4965;
+font-weight:600;
+}
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#1b4965;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+flex:1;
+min-width:280px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+iframe{
+width:100%;
+height:250px;
+border-radius:12px;
+}
+
+form{
+background:white;
+padding:30px;
+border-radius:15px;
+display:flex;
+flex-direction:column;
+gap:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+padding:12px;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+button{
+padding:12px;
+border:none;
+border-radius:30px;
+background:linear-gradient(135deg,#2ec4b6,#1b4965);
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+.pago{
+display:block;
+text-align:center;
+margin-top:20px;
+background:#ff9f1c;
+color:white;
+padding:15px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#1b4965;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+.cards{flex-direction:column;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Leidy Tatiana Hurtado Giraldo</h1>
+<p>Psicóloga Profesional | Bienestar Emocional</p>
+</header>
+
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#agenda">Agenda</a>
+<a href="#videos">Videos</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+<h2>Servicios</h2>
+<div class="cards">
+<div class="card">
+<h3>Terapia Individual</h3>
+<p>Atención personalizada para ansiedad, autoestima y crecimiento personal.</p>
+</div>
+<div class="card">
+<h3>Terapia de Pareja</h3>
+<p>Fortalece tu relación y mejora la comunicación.</p>
+</div>
+<div class="card">
+<h3>Terapia Online</h3>
+<p>Sesiones virtuales seguras desde cualquier lugar.</p>
+</div>
+</div>
+</section>
+
+<section id="agenda">
+<h2>Agenda tu cita</h2>
+
+<!-- Calendario de Google -->
+<iframe src="https://calendar.google.com/calendar/embed?src=TU_CORREO%40gmail.com"></iframe>
+
+<a class="pago" href="https://linkdepago.com" target="_blank">
+Pagar Sesión Online
+</a>
+
+</section>
+
+<section id="videos">
+<h2>Videos Psicológicos</h2>
+<div class="cards">
+<div class="card">
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+</div>
+<div class="card">
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contáctame</h2>
+<form>
+<input type="text" placeholder="Nombre completo" required>
+<input type="email" placeholder="Correo electrónico" required>
+<textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+<button type="submit">Enviar mensaje</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Leidy Tatiana Hurtado Giraldo | Psicología Profesional</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/57TU_NUMERO" target="_blank">💬</a>
+
+</body>
+</html>
